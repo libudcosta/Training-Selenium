@@ -244,7 +244,7 @@ public class PrintName {
 		int number =123; // 12
 			 int sum = 0; //0+3    
 			 
-			 while (number>0) {
+			 while (number>1) {
 				 sum = sum + number%10;
 				 number = number/10;
 			 } 
@@ -283,6 +283,84 @@ public class PrintName {
 		
 	}
 	
+	public void EvenOdd() {
+		
+		int num = 25;
+			{
+			
+			if (num% 2== 0)
+				System.out.println("its a Even number"); 
+			
+			else 
+				System.out.println("its a Odd");
+			}
+//			else
+//				System.out.println("its a Odd");
+				
+	}
+	
+	
+	public void negpos() {
+		
+		int num = -9;
+				
+			if (num > 0) {
+			System.out.println(num+ "     The number is positive");
+			}			
+			
+			else if (num == 0) {
+			System.out.println(num+ "     The number is invalid");
+			}
+			
+			else {
+				System.out.println(num+ " The number is negative");
+			
+			}
+				
+					
+	}
+	
+	public void for6() {
+		int i = 1;
+		
+		
+		for (i=1;i<=5;i++) {
+			System.out.println(i*2);}
+		
+		{
+			System.out.println("for loop completed");
+		}
+		
+		
+		
+		
+	}
+	
+	
+	
+	public int Parameters3( int i, int j, int k) {
+	int num = i+j+k;
+	return num;
+	}
+	
+	public void sumthedigits() {        //ask this to Basil
+		
+		int i= 99; 
+		int j;
+		int k;
+		int num =0;
+		
+			while(i>0) {
+			j = i%10;
+			k= i/10;
+			num =j+k;
+			System.out.println("The number is " +num);
+			}
+			
+	
+	
+		}
+				
 	
 	
 	
@@ -314,9 +392,13 @@ public class PrintName {
         //ADD.lastNumber();
 	//ADD.reverse();
         //ADD.Swap55();
-        PrintName Para = new PrintName();
-        int result = Para.Parameters(4, 5, 1);
-        System.out.println(result);  //done
+//        PrintName Para = new PrintName();
+//        int result = Para.Parameters3(4, 5, 1);
+//        System.out.println(result);  //done
+        //ADD.EvenOdd();
+       //ADD.for6();
+        ADD.sumthedigits();
+        //ADD.sumOfDigits();
 	
 	}
 

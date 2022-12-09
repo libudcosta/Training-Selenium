@@ -16,13 +16,17 @@ public class SecondClass {
 		Boolean Y = true;
 		Boolean Z = false;
 		
-	 System.out.println(sum);
-	 System.out.println("See my number" +sum);
-	 System.out.println(output);
-	 System.out.println("See my result is "+output2);
-	 System.out.println("verify the value" +(Check2||Check2));
-	 System.err.println(sentence);
-	 System.out.println("value should be " + (Y&&Y) );
+//	 System.out.println(sum);
+//	 System.out.println("See my number" +sum);
+//	 System.out.println(output);
+//	 System.out.println("See my result is "+output2);
+//	 System.out.println("verify the value" +(Check2||Check2));
+//	 System.err.println(sentence);
+//	 System.out.println("value should be " + (Y&&Y) );
+	 
+	//class name objectname = New class name();
+	 PrintName calling = new PrintName();
+	 calling.lastNumber();
 
 	}
 
